@@ -127,8 +127,8 @@ body{
   bottom: 0;
   display: block;
   margin: 0 auto;
-  left: 44%;  
-  bottom: 23%;
+  left: 43%;  
+  margin-top: 20px;
   height: 60px;
   width: 220px;
   border-radius: 5px;
