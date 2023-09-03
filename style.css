@@ -124,7 +124,6 @@ body{
 .btn{
   position: absolute;
   cursor: pointer;
-  bottom: 0;
   display: block;
   margin: 0 auto;
   left: 43%;  
