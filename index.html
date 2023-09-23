@@ -1,297 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mountain Journeys</title>
-    <link rel="icon" type="images/x-icon" href="images/title v4.png"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mountain Journeys</title>
+  <link rel="icon" type="images/x-icon" href="images/title v4.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <section class="home">
-        <header class="header">
-            <img src="images/logo_new.png" alt="" id="logo">
-            <nav class="navbar">
-            <ul id="ul">
-                 <li><a href="#">Home</a> </li>
-                 <li> <a href="#destinations_text">Destinations</a></li>
-                <li><a href="#tours_text">Hot tours</a></li>
-                <li><a href="#about_us_main">About us</a></li>
-            </ul>
-            </nav>
-            </header>
-            
-            <div class="slogan">
-                <h2>Never stop</h2>
-                <h3>Exploring the world</h3>
-            </div>
+  <section class="home">
+    <header class="header">
+      <img src="images/logo_new.png" alt="" id="logo">
+      <nav class="navbar">
+        <ul id="ul">
+          <li><a href="#">Home</a> </li>
+          <li> <a href="#destinations_text">Destinations</a></li>
+          <li><a href="#tours_text">Hot tours</a></li>
+          <li><a href="#about_us_main">About us</a></li>
+        </ul>
+      </nav>
+    </header>
 
-            <div class="video">
-                <video src="images/main2.mp4" autoplay muted loop></video>                
-            </div>
-           
+    <div class="slogan">
+      <h2>Never stop</h2>
+      <h3>Exploring the world</h3>
+    </div>
 
-
-    
-                    <div class="popup" id="popup-1">
-                    <div class="overlay"></div>
-                    <div class="content">
-                    <h2 id="contact-text">Quick Contact</h2>
-                    <div class="close-btn" onclick="togglePopup()">Send</div>
-                    <div class="close-btn2" onclick="togglePopup()">X</div>
-
-                    
-                        <form action="#" id="form">
-                            <input type="email" placeholder="Email" class="input">
-                            <input type="email" placeholder="Phone number" class="input">
-                            <input type="text" placeholder="Your message" class="input">
-
-
-                        </form>
-                    </div>
-                    </div>
-                
-                <button onclick="togglePopup()" class="btn"> Quick Contact</button>
-                
-                   
-    </section>
+    <div class="video">
+     <video src="images/main2.mp4" autoplay muted loop></video> 
+    </div>
+    <div class="popup" id="popup-1">
+      <div class="overlay"></div>
+      <div class="content">
+        <h2 id="contact-text">Quick Contact</h2>
+        <div id="close-btn-div">
+          <button class="close-btn" onclick="togglePopup()">Send</button>
+        </div>
+        <div class="close-btn2" onclick="togglePopup()">X</div>
+        <form action="#" id="form">
+          <input type="email" placeholder="Email" class="input">
+          <input type="email" placeholder="Phone number" class="input">
+          <input type="text" placeholder="Your message" class="input">
+        </form>
+      </div>
+    </div>
+    <div id="button_contact_center"><button onclick="togglePopup()" class="btn"> Quick Contact</button></div>
 
 
-    
-    
-    
-    <section class="destinations">
+
+  </section>
+
+  <section class="destinations">
     <h1 id="destinations_text">Destinations</h1>
     <div class="alps">
-        <div class="alps_text">
-            <h1>Alps</h1>
-            <p>The Alps are renowned for their majestic beauty and diverse recreational opportunities. With picturesque  landscapes,  alpine villages. In the summer, it transforms into a hiker's paradise, with trails catering to all skill levels. The region also has stunning lakes, such as Lake Geneva, adding to its allure.
-                
-            </p>
-            <button class="btn_alps">More</button>
-            
-        </div>
-        <img src="https://static.nationalgeographic.es/files/expeditions.jpg?url=https://www.nationalgeographicexpeditions.eu/wp-content/uploads/2019/07/Italy-Santa-Maddalena-shutterstock_1041217135-1024x683.jpg" alt=""> 
-     
-    </div>
-    <div class="himalayas">
-        <img src="https://cdn.britannica.com/74/114874-050-6E04C88C/North-Face-Mount-Everest-Tibet-Autonomous-Region.jpg" alt=""> 
-     
-        <div class="himalayas_text">
-            <h1>Himalayas</h1>
-             <p>The Himalayas, world's highest mountain range. With its snow-capped peaks, serene valleys, and diverse cultural heritage, it offers an unforgettable experience. Mount Everest, the highest peak on Earth, allures mountaineers, while trekking routes like the Annapurna Circuit and Everest Base Camp Trek captivate adventure seekers. 
-                
-            </p>
-            <button class="btn_himalayas">More</button>
-            
-        </div>      
-    </div>
-    <div class="patagonia">
-        <div class="patagonia_text">
-            <h1>Andes</h1>
-            <p>Andes, shared by Argentina and Chile, is a captivating mountain region in South America. With its majestic peaks, expansive glaciers, and turquoise lakes, it offers a breathtaking landscape. Visitors can explore the renowned Torres del Paine National Park, marvel at the Perito Moreno Glacier, or Tierra del Fuego archipelago.
-
-                
-            </p>
-            <button class="btn_patagonia">More</button>
-            
-        </div>
-        <img src="https://sayhueque.com/wp-content/uploads/2020/10/el-chalten-fitz-roy-2-2_1-e1601566201892.jpg" alt=""> 
-        <!-- https://i.natgeofe.com/n/e13cafc8-e0ed-4f2b-bc44-a2df58c37a50/patagonia-climb-mt-fitz-roy.jpg?w=636&h=429 -->
-   </div>
-   <div class="carpathians">
-    <img src="https://carpathianculture.eu/wp-content/uploads/2019/10/gorale_luku_karpat.jpg" alt=""> 
- 
-    <div class="carpathians_text">
-        <h1>Carpathians</h1>
-         <p>The Carpathians, located in Eastern Europe. This ancient mountain range offers unspoiled wilderness, traditional villages, and cultural heritage.  Hikers can explore the stunning landscapes of the Carpathian National Nature Parks, while immersing themselves in the region's folklore and rustic traditions.
-
-            
+      <div class="alps_text">
+        <h1>Alps</h1>
+        <p>The Alps are renowned for their majestic beauty and diverse recreational opportunities. With picturesque
+          landscapes, alpine villages. In the summer, it transforms into a hiker's paradise, with trails catering to all
+          skill levels. The region also has stunning lakes, such as Lake Geneva, adding to its allure.
         </p>
-        <button class="btn_carpathians">More</button>
-        
-    </div>      
-</div>
+        <button class="btn_alps">More</button>
 
- </section>
+      </div>
+      <video id="myVid" autoplay>
+        <source src="images/video (1080p).mp4" type="video/mp4">
+    </video>   
+    </div>
+    <div class="alps">
+      <video id="myVid2" autoplay>
+        <source src="images/himalaya.mp4" type="video/mp4">
+    </video>   
+      <div class="alps_text">
+        <h1>Himalayas</h1>
+        <p>The Himalayas, world's highest mountain range. With its snow-capped peaks, serene valleys, and diverse
+          cultural heritage, it offers an unforgettable experience. Mount Everest, the highest peak on Earth, allures
+          mountaineers, while trekking routes like the Annapurna Circuit and Everest Base Camp Trek captivate adventure
+          seekers.
 
- <section class="hot_tours">    
+        </p>
+        <button class="btn_alps" id="himalayas_btn">More</button>
+      </div>
+    </div>
+    <div class="alps">
+      <div class="alps_text">
+        <h1>Andes</h1>
+        <p>Andes, shared by Argentina and Chile, is a captivating mountain region in South America. With its majestic
+          peaks, expansive glaciers, and turquoise lakes, it offers a breathtaking landscape. Visitors can explore the
+          renowned Torres del Paine National Park, marvel at the Perito Moreno Glacier, or Tierra del Fuego archipelago.
+        </p>
+        <button class="btn_alps" id="andes_btn">More</button>
+
+      </div>
+      <video id="myVid3" autoplay>
+        <source src="images/andes.mp4" type="video/mp4">
+    </video>   
+    </div>
+    <div class="alps">
+      <video id="myVid4" autoplay>
+        <source src="images/carpathians.mp4" type="video/mp4">
+    </video>   
+
+      <div class="alps_text">
+        <h1>Carpathians</h1>
+        <p>The Carpathians, located in Eastern Europe. This ancient mountain range offers unspoiled wilderness,
+          traditional villages, and cultural heritage. Hikers can explore the stunning landscapes of the Carpathian
+          National Nature Parks, while immersing themselves in the region's folklore and rustic traditions.
+
+        </p>
+        <button class="btn_alps" id="carpaty_btn">More</button>
+      </div>
+    </div>
+  </section>
+  <section class="hot_tours">
     <h1 id="tours_text">Hot Tours</h1>
     <div class="cards">
-        <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="https://img.itinari.com/pages/images/original/bb718b64-5183-4da2-b3a3-4ac6731f34bb-istock-595363868.jpg?ch=DPR&dpr=2.625&w=1600&s=8275ca121fd422267e2cf6e70ce03952" alt="">
-                <h1>Synevyr Lake</h1>
-                <p>The largest mountain lake in Ukraine, Synevyr, is located at the height of 989 meters above sea level.</p>
-                
-              </div>
-              <div class="flip-card-back">
-                <h1>Info</h1>
-                <ul>
-                    <li>Departure from Uzhhorod.</li>
-                    <li>Amazing panoramic views from Volovetsky Pass.</li>
-                    <li>Moving to the village of Synevyrska Polyana. Excursion to the national park to the beautiful lake Synevyr.</li>
-                    <li>Visits to the bear shelter.</li>
-                    <li>Lunch in a hut, dishes of Hutsul cuisine.</li>
-                    <li>Moving to the village of Pylypets. <br> A walk to the largest waterfall in Transcarpathia - Shipit.</li>
-                    <li>Climb to Mount Hymba, amazing Borzhava polonins.</li>
-                </ul>
-              </div>
-            </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="https://img.itinari.com/pages/images/original/bb718b64-5183-4da2-b3a3-4ac6731f34bb-istock-595363868.jpg?ch=DPR&dpr=2.625&w=1600&s=8275ca121fd422267e2cf6e70ce03952"
+              alt="">
+            <h1>Synevyr Lake</h1>
+            <p>The largest mountain lake in Ukraine, Synevyr, is located at the height of 989 meters above sea level.
+            </p>
+
           </div>
-
-
-          <div class="flip-card2">
-            <div class="flip-card-inner2">
-              <div class="flip-card-front2">
-                <img src="https://cdn.outsideonline.com/wp-content/uploads/2023/04/Annapurna4-1024x576.jpg?width=1200" alt="">
-                <h1>Annapurna   </h1>
-                <p>Annapurna, Nepali Annapurna Himal, massif of the Himalayas in north-central Nepal. Annapurna I is the world's 10th highest peak.</p>
-                
-              </div>
-              <div class="flip-card-back2">
-                <h1>Info</h1>
-                <ul>
-                    <li>Challenge yourself to one of the most scenic and challenging treks in the world.
-                    </li>
-                    <li>See cascading waterfalls, beautiful villages,amazing mountain vistas, and more.</li>
-                    <li>Visit the Gurung musuem on Ghandruk and learn about the culture and history.</li>
-                    <li>See impressive high peaks like Machhapuchhre, Annapurna south, Annapurna I and more.</li>
-                    <li>Be guided from your patient, knowledgeable English-speaking guide.</li>
-                  
-                </ul>
-              </div>
-            </div>
+          <div class="flip-card-back">
+            <h1>Info</h1>
+            <ul>
+              <li>Departure from Uzhhorod.</li>
+              <li>Amazing panoramic views from Volovetsky Pass.</li>
+              <li>Moving to the village of Synevyrska Polyana. Excursion to the national park to the beautiful lake
+                Synevyr.</li>
+              <li>Visits to the bear shelter.</li>
+              <li>Lunch in a hut, dishes of Hutsul cuisine.</li>
+              <li>Moving to the village of Pylypets. <br> A walk to the largest waterfall in Transcarpathia - Shipit.
+              </li>
+              <li>Climb to Mount Hymba, amazing Borzhava polonins.</li>
+            </ul>
           </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://cdn.outsideonline.com/wp-content/uploads/2023/04/Annapurna4-1024x576.jpg?width=1200"
+              alt="">
+            <h1 id="annapurna">Annapurna</h1>
+            <p>Annapurna, Nepali Annapurna Himal, massif of the Himalayas in north-central Nepal. Annapurna I is the
+              world's 10th highest peak.</p>
 
-
-          <div class="flip-card3">
-            <div class="flip-card-inner3">
-              <div class="flip-card-front3">
-                <img src="https://i.natgeofe.com/n/819ea774-aa80-435e-af5a-ae56efee7ce3/92491.jpg?w=1084.125&h=813.75" alt="">
-                <!-- https://i.natgeofe.com/n/819ea774-aa80-435e-af5a-ae56efee7ce3/92491.jpg?w=1084.125&h=813.75 -->
-                <h1>Machu Picchu</h1>
-                <p>Machu Picchu, site of ancient Inca ruins located about 80 km northwest of Cuzco, Peru, in the Cordillera de Vilcabamba of the Andes Mountains.</p>
-                
-              </div>
-              <div class="flip-card-back3">
-                <h1>Info</h1>
-                <ul>
-                    <li>Explore the Sacred Valley and Machu Picchu on this 2-day tour from Cusco.
-                    </li>
-                    <li>Visit the archaeological sites of Pisac, Urubamba, and Ollantaytambo.</li>
-                    <li>Watch the sunrise over the famous Machu Picchu and learn about the Incas.</li>
-                    <li>Breakfast and hotel accommodations included.</li>
-                    <li>Comfortable round-trip transport by bus and train.</li>
-                    
-                  
-                </ul>
-              </div>
-            </div>
           </div>
+          <div class="flip-card-back" id="flip_annapurna">
+            <h1>Info</h1>
+            <ul>
+              <li>Challenge yourself to one of the most scenic and challenging treks in the world.
+              </li>
+              <li>See cascading waterfalls, beautiful villages,amazing mountain vistas, and more.</li>
+              <li>Visit the Gurung musuem on Ghandruk and learn about the culture and history.</li>
+              <li>See impressive high peaks like Machhapuchhre, Annapurna south, Annapurna I and more.</li>
+              <li>Be guided from your patient, knowledgeable English-speaking guide.</li>
 
-
-
-          <div class="flip-card4">
-            <div class="flip-card-inner4">
-              <div class="flip-card-front4">
-                <img src="https://vrolijkopreis.nl/wp-content/uploads/2020/10/Saxer-Lucke.jpg" alt="">
-                <h1>Saxer Lücke</h1>
-                <p>This Saxer Lücke trail is located in Eastern Switzerland, near the border of Liechtenstein. It is part of the Alpstein mountain range in the Appenzell region.</p>
-                
-              </div>
-              <div class="flip-card-back4">
-                <h1>Info</h1>
-                <ul>
-                    <li>Visit the best viewpoints to see famous peaks and glacier summits.
-                    </li>
-                    <li>Travel with a guide for easy logistics, but have free time at each stop.</li>
-                    <li>Explore Saxer Lücke and enjoy ample free time for lunch (own expense).</li>
-                    <li>Stay in Saxer Lücke longer if you wish, and return to Geneva at a later time.</li>
-            
-                    
-                  
-                </ul>
-              </div>
-            </div>
+            </ul>
           </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://i.natgeofe.com/n/819ea774-aa80-435e-af5a-ae56efee7ce3/92491.jpg?w=1084.125&h=813.75"
+              alt="">
+            <h1 id="machupicchu">Machu Picchu</h1>
+            <p>Machu Picchu, site of ancient Inca ruins located about 80 km northwest of Cuzco, Peru, in the Cordillera
+              de Vilcabamba of the Andes Mountains.</p>
+
+          </div>
+          <div class="flip-card-back" id="machupicchu_1">
+            <h1>Info</h1>
+            <ul>
+              <li>Explore the Sacred Valley and Machu Picchu on this 2-day tour from Cusco.
+              </li>
+              <li>Visit the archaeological sites of Pisac, Urubamba, and Ollantaytambo.</li>
+              <li>Watch the sunrise over the famous Machu Picchu and learn about the Incas.</li>
+              <li>Breakfast and hotel accommodations included.</li>
+              <li>Comfortable round-trip transport by bus and train.</li>
 
 
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://vrolijkopreis.nl/wp-content/uploads/2020/10/Saxer-Lucke.jpg" alt="">
+            <h1 id="saxer">Saxer Lücke</h1>
+            <p>This Saxer Lücke trail is located in Eastern Switzerland, near the border of Liechtenstein. It is part of
+              the Alpstein mountain range in the Appenzell region.</p>
 
-
-
+          </div>
+          <div class="flip-card-back" id="saxer1">
+            <h1>Info</h1>
+            <ul>
+              <li>Visit the best viewpoints to see famous peaks and glacier summits.
+              </li>
+              <li>Travel with a guide for easy logistics, but have free time at each stop.</li>
+              <li>Explore Saxer Lücke and enjoy ample free time for lunch (own expense).</li>
+              <li>Stay in Saxer Lücke longer if you wish, and return to Geneva at a later time.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-   
-
-</section>
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<section class="about_us">
-  <h1 id="about_us_main">About us</h1>
-  <div class="content_aboutus">
-    <div class="aboutus_text">
-      <h2>Mountain Journeys</h2>
-      <p>We are professional mountain-tour company, which was created in a 1993. “Mountain Journeys” was the local company, but now we are worldwide. We have many tours around the world, so you can find what you need, even if you are beginner. Our guides are also professionals, so they will always help you.</p>
+  </section>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <section class="about_us">
+    <h1 id="about_us_main">About us</h1>
+    <div class="content_aboutus">
+      <div class="aboutus_text">
+        <h2>Mountain Journeys</h2>
+        <p>We are professional mountain-tour company, which was created in a 1993. “Mountain Journeys” was the local
+          company, but now we are worldwide. We have many tours around the world, so you can find what you need, even if
+          you are beginner. Our guides are also professionals, so they will always help you.</p>
+      </div>
+      <div class="image_hover"></div>
     </div>
-    <div class="image_hover"></div>
-  </div>
-
-</section>
 
 
-<section class="footer-section">
-<footer class="footer-distributed">
-  
 
-  <div class="footer-left">
-      <img src="images/logo_new.png" alt="">
+  </section>
 
-     
 
-      <p class="footer-company-name">Copyright © 2023 <strong>Mountain Journeys</strong> All rights reserved</p>
-  </div>
+  <section class="footer-section">
+    <footer class="footer-distributed">
 
-  <div class="footer-center">
-      <div>
+
+      <div class="footer-left">
+        <img src="images/logo_new.png" alt="">
+
+
+
+        <p class="footer-company-name">Copyright © 2023 <strong>Mountain Journeys</strong> All rights reserved</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
           <i class="fa fa-map-marker"></i>
           <p><span>Ukraine</span>
-              Kyiv</p>
-      </div>
+            Kyiv</p>
+        </div>
 
-      <div>
+        <div>
           <i class="fa fa-phone"></i>
           <p>+81 2353 42 21</p>
-      </div>
-      <div>
+        </div>
+        <div>
           <i class="fa fa-envelope"></i>
           <p><a href="mailto:sagar00001.co@gmail.com">mountainjourneys@gmail.com</a></p>
+        </div>
       </div>
-  </div>
-  <div class="footer-right">
-      <p class="footer-company-about">
+      <div class="footer-right">
+        <p class="footer-company-about">
           <span>Contact us</span>
           You can always contact us with your questions, we will answer as soon as possible.
-      </p>
-      <div class="footer-icons">
+        </p>
+        <div class="footer-icons">
           <a href="#"><i class="fa fa-facebook"></i></a>
           <a href="#"><i class="fa fa-instagram"></i></a>
           <a href="#"><i class="fa fa-linkedin"></i></a>
           <a href="#"><i class="fa fa-twitter"></i></a>
 
+        </div>
+
       </div>
 
-  </div>
-
-</footer>
-</section>
+    </footer>
+  </section>
 
 </body>
 
@@ -299,4 +295,5 @@
 
 
 <script src="script.js"></script>
-</html>         
+
+</html>
