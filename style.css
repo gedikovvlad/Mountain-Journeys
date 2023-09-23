@@ -52,10 +52,32 @@ body {
   z-index: 2;
 }
 
+
+
 #ul a {
-  color: white;
+  color: #ffffff;
+  position: relative;
   text-decoration: none;
 }
+
+#ul a::before {
+  background: #718fb9;
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-in-out;
+  z-index: -1;
+}
+
+#ul a:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+  
+}
+
+
 .slogan {
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 2px #565656;
@@ -63,7 +85,7 @@ body {
   margin-top: 190px;
   font-size: 30px;
   text-align: center;
-  margin-top: 13%;
+  margin-top: 14%;
 }
 
 .slogan h2 {
