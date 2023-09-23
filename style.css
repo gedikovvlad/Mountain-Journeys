@@ -90,7 +90,7 @@ body{
   font-size: 30px;
   text-align: center;
   margin-top: 15%;
-  width: 100%;
+
 
 }
 .slogan h2{
@@ -131,7 +131,7 @@ body{
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  left: 43%;  
+  align-items: center;
   margin-bottom: 15px;
   height: 60px;
   width: 220px;
