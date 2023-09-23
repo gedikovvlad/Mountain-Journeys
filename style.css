@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins&display=swap');
 html {
   scroll-behavior: smooth;
@@ -6,7 +11,7 @@ body{
   font-family: 'Poppins', sans-serif;
 
 }
-  
+
 
 
 /* body {
