@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    z-index: 2;
+    margin-right: 50px ;
+    margin-left: 40px;
+   
+}
+
+.header img {
+    width: 200px;
+    z-index: 2;
+
+}
+
+#logo{
+    width: 200px;
+    z-index: 2;
+    filter: contrast(22px);
+
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    color: rgb(230, 230, 230);
+    z-index: 2;
+    /* text-shadow:1px 1px 1px #373737; */
+    font-weight: 400;
+
+ 
+
+}
+
+.navbar ul li {
+    margin: 25px;   
+    z-index: 2;  
+
+
+
+}
+
+#ul a{
+  color: white;
+  text-decoration: none;
+}
