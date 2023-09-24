@@ -1,0 +1,49 @@
+.about_us {
+    background-color: whitesmoke;
+    padding-bottom: 110px;
+  }
+  
+  .content_aboutus {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+  }
+  
+  #about_us_main {
+    width: 100%;
+    padding-top: 5%;
+    margin: 0 auto;
+    color: #373737;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+  }
+  
+  .aboutus_text {
+    color: #373737;
+    max-width: 30%;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: justify;
+  }
+  
+  .image_hover {
+    background-image: url("images/no\ hover.png");
+    width: 600px;
+    height: 350px;
+    background-color: #373737;
+    transition: 1.4s;
+    filter: brightness(80%);
+    border-radius: 20px;
+  }
+  
+  .image_hover:hover {
+    background-image: url("images/hover.png");
+    width: 600px;
+    height: 350px;
+    filter: brightness(100%);
+  }
+  
+  
+  
+  

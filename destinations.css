@@ -1,0 +1,125 @@
+.destinations {
+    margin: 0px auto;
+    padding: 0px auto;
+    background-color: whitesmoke;
+    min-height: 100%;
+    box-shadow: 0px 1000px 0px 1000px whitesmoke ;
+  }
+  #destinations_text {
+    width: 100%;
+    padding-top: 30px;
+    margin: 0 auto;
+    color: #373737;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+  }
+  /* --------------------- */
+  .alps {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    font-size: 25px;
+  }
+  
+  #myVid{
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 60px;
+  }
+  
+  .alps_text {
+    color: #373737;
+    max-width: 600px;
+    margin-top: 40px;
+  }
+  
+  .alps h1 {
+    font-size: 45px;
+  }
+  
+  .alps_text p {
+    font-size: smaller;
+  }
+  
+  .btn_alps {
+  
+    cursor: pointer;
+    height: 60px;
+    width: 200px;
+    border-radius: 1px;
+    background-color: #6E8D04;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 10px;
+    transform: scale(0.8);
+    transition: ease-in .2s;
+  
+  }
+  
+  .btn_alps:hover {
+    transform: scale(0.9);
+    background-color: rgba(240, 248, 255, 0);
+    color: #6E8D04;
+    border-color: #6E8D04;
+    transition: 300ms;
+  
+  }
+  
+  /* ------------------------------------- */
+  
+  
+  #himalayas_btn{
+  background-color:#1782BA ;
+  }
+  #myVid2{
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 60px;
+  }
+  #himalayas_btn:hover {
+    background-color: rgba(240, 248, 255, 0);
+    color: #1782BA;
+    border-color: #1782BA;
+  
+  }
+  
+  /* ------------------------------------- */
+  
+  #andes_btn{
+    background-color:#ae8022e8;
+  }
+  #myVid3{
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 60px;
+  }
+  #andes_btn:hover {
+    color: #ae8022e8;
+    border-color: #ae8022e8;
+    background-color: rgba(240, 248, 255, 0);
+  }
+  
+  /* ------------------------------------- */
+  
+  #carpaty_btn{
+    background-color:#527b5b;;
+  }
+  #myVid4{
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 60px;
+    filter: brightness(105%);
+   
+  }
+  #carpaty_btn:hover {
+    background-color: rgba(240, 248, 255, 0);
+    color: #527b5b;
+    border-color: #527b5b;
+  }
+  
